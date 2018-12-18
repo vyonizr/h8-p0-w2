@@ -11,23 +11,18 @@ while (asterisksStartCount <= rows1) {
 console.log("-----------------------------------");
 console.log("2. Menyusun Barisan Bintang Dengan Nested Looping")
 var rows2 = 5; // input the number of rows
+var column2 = rows2; // column value = row value
 var asterisksRowStartCount2 = 1;
-
-//HORIZONTAL ASTERISK FUNCTION
-function horizontalAsterisks() { 
-  var column2 = rows2; // row = column
-  var asterisksColumnStartCount2 = 1;
-  var asteriskContainer2 = ""; // an empty var that will be filled with asterisks
-  while (asterisksColumnStartCount2 <= column2) {
-      asteriskContainer2 += "*";
-      asterisksColumnStartCount2++;
-    }
-  return asteriskContainer2;
-}
+var asterisksColumnStartCount2 = asterisksRowStartCount2;
+var asteriskContainer2 = ""; // an EMPTY STRING that will be filled with asterisks
 
 // do loops to display asterisks in the console.
 while (asterisksRowStartCount2 <= rows2) {
-  console.log(horizontalAsterisks());
+  while (asterisksColumnStartCount2 <= column2) { // inline asterisks loop
+    asteriskContainer2 += "*"; // asterisks are added into asteriskContainer2
+    asterisksColumnStartCount2++;
+  }
+  console.log(asteriskContainer2); // *****
   asterisksRowStartCount2++;
 }
 
