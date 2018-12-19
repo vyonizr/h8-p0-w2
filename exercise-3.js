@@ -1,5 +1,5 @@
 var userName = "Afit";
-var userRole = "Batu";
+var userRole = "Ksatria";
 var welcomeMessage = "Selamat datang di dunia Proxytia, " + userName ;
 
 if(userName == "") {
@@ -7,9 +7,6 @@ if(userName == "") {
 }
 else if(userRole == "") {
   console.log("Halo, " + userName + ", pilih peranmu untuk memulai game!")
-}
-else if(userRole != "Ksatria" || userRole != "Tabib" || userRole != "Penyihir") {
-  console.log(userName + ", kamu ingin menjadi Ksatria, Tabib, atau Penyihir?")
 }
 else {
   console.log(welcomeMessage);

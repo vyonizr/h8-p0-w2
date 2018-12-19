@@ -1,11 +1,13 @@
 function konversiMenit(menit) {
   // you can only write your code here!
   var nMenit = Math.floor(menit / 60);
+  var nDetik = (menit % 60);
+
   if ((menit % 60) < 10) {
-    return (nMenit + ":" + 0 + (menit % 60));
+    return (nMenit + ":" + 0 + (nDetik));
   }
   else {
-    return (nMenit + ":" + (menit % 60));
+    return (nMenit + ":" + (nDetik));
   }
 }
 

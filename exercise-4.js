@@ -19,6 +19,7 @@ if(Number.isInteger(tanggal) && Number.isInteger(bulan) && Number.isInteger(tahu
           case 10: { var bulan = "Oktober"; break; }
           case 11: { var bulan = "November"; break; }
           case 12: { var bulan = "Desember"; break; }
+          default: { var bulan = "Bulan tidak terdefinisi"; break; }
         }
         console.log(tanggal + " " + bulan + " " + tahun);
       }
@@ -32,6 +33,7 @@ else {
   console.log("Silahkan masukkan bilangan bulat");
 }
 
+// Functions for out-of-range ddmmyyyy input 
 function salahTanggal(){
   if(1 <= bulan && bulan <=12) {
     if(1900 <= tahun && tahun <= 2200) {

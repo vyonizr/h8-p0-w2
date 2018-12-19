@@ -10,8 +10,8 @@ var seventh = 'it!';
 
 console.log(word + " " + second + " " + third + " " + fourth + " " + fifth + " " + sixth + " " + seventh);
 
-//SOAL KEDUA
 console.log("------------------------------------");
+// SOAL KEDUA
 console.log("SOAL KEDUA:");
 var word = 'wow JavaScript is so cool';
 var exampleFirstWord = word[0] + word[1] + word[2];
@@ -26,8 +26,8 @@ console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
-//SOAL KETIGA
 console.log("------------------------------------");
+// SOAL KETIGA
 console.log("SOAL KETIGA:");
 var word3 = 'wow JavaScript is so cool';
 var exampleFirstWord3 = word3.substring(0, 3);
@@ -42,8 +42,9 @@ console.log('Third Word: ' + thirdWord3);
 console.log('Fourth Word: ' + fourthWord3);
 console.log('Fifth Word: ' + fifthWord3);
 
-//SOAL KEEMPAT
+
 console.log("------------------------------------");
+// SOAL KEEMPAT
 console.log("SOAL KEEMPAT:");
 var word4 = 'wow JavaScript is so cool';
 var exampleFirstWord4 = word4.substring(0, 3);

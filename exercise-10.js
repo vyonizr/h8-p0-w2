@@ -1,6 +1,6 @@
 function bandingkanAngka(angka1, angka2) {
     if (angka1 < angka2) {
-        return true;
+    return true;
     }
     else if (angka1 > angka2) {
         return false;

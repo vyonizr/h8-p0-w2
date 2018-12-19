@@ -1,7 +1,7 @@
 //SOAL PERTAMA
 console.log("SOAL PERTAMA:");
 console.log("LOOPING PERTAMA");
-var i = 0;
+var i = 2;
   while (i <= 20) {
     console.log(i + " - I love coding");
     i += 2;
@@ -9,30 +9,30 @@ var i = 0;
 
 console.log("LOOPING KEDUA");
 var i = 20;
-  while (i >= 0) {
+  while (i >= 2) {
     console.log(i + " - I will become fullstack developer");
     i -= 2;
   }
 
-//SOAL KEDUA
 console.log("------------------------------------");
+//SOAL KEDUA
 console.log("SOAL KEDUA:");
 console.log("LOOPING PERTAMA");
-var i = 0;
+var i = 1;
   while (i <= 20) {
     console.log(i + " - I love coding");
     i++;
   }
 
 console.log("LOOPING KEDUA");
-var i = 22;
-  while (i >= 0) {
+var i = 20;
+  while (i >= 1) {
     console.log(i + " - I will become fullstack developer");
     i--;
   }
 
-//SOAL KETIGA
 console.log("------------------------------------");
+//SOAL KETIGA
 console.log("SOAL KETIGA:");
 for(i=1; i <= 100; i++) {
   if(i % 2 !== 0) {

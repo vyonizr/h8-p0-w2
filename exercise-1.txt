@@ -14,7 +14,7 @@ DISPLAY "F"
 STORE "year" with any value
 
 IF "year" modulo 4 equals 0 AND "year" modulo 100 equals any value
-OR IF "year" modulo 4 equals 0 AND "year" modulo 100 equals 0 AND "year" modulo 400 EQUALS 0
+OR IF "year" modulo 4 equals 0 AND "year" modulo 100 equals 0 AND "year" modulo 400 equals 0
   DISPLAY "'year' is a leap year."
 
 ELSE
@@ -25,7 +25,7 @@ ELSE
 
 STORE "tops in the washing machine" value with 0
 
-WHILE "tops in the washing machine" value is below 20
+WHILE "tops in the washing machine" value is less than 20
   ADD 1 to "tops in the washing machine" value
 
 TURN ON "washing machine"
@@ -38,7 +38,7 @@ STORE "students checked" with 0
 PRINT declaration "ODD n-th 'students' has long fingernails";
 
 
-WHILE "students checked" value is below "students" value
+WHILE "students checked" value is less than or equal to "students" value
   IF "students" value is ODD
     DO "punish the student"
   ELSE
