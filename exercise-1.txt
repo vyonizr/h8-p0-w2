@@ -1,0 +1,46 @@
+1. Newton Second Law
+
+STORE "F" without any value
+STORE "m" value with 600
+STORE "a" value with 2
+
+CALCULATE "m" times "a"
+ASSIGN the CALCULATE value to "F"
+
+DISPLAY "F"
+--------------------------
+2. Tahun Kabisat
+
+STORE "year" with any value
+
+IF "year" modulo 4 equals 0 AND "year" modulo 100 equals any value
+OR IF "year" modulo 4 equals 0 AND "year" modulo 100 equals 0 AND "year" modulo 400 EQUALS 0
+  DISPLAY "'year' is a leap year."
+
+ELSE
+  DISPLAY "'year' is not a leap year."
+
+--------------------------
+3. Laundry Day
+
+STORE "tops in the washing machine" value with 0
+
+WHILE "tops in the washing machine" value is below 20
+  ADD 1 to "tops in the washing machine" value
+
+TURN ON "washing machine"
+
+-------------------------
+4. Periksa Kuku
+
+STORE "students" value with 40
+STORE "students checked" with 0
+PRINT declaration "ODD n-th 'students' has long fingernails";
+
+
+WHILE "students checked" value is below "students" value
+  IF "students" value is ODD
+    DO "punish the student"
+  ELSE
+    DO "compliment the student"
+  ADD 1 to "students checked"
