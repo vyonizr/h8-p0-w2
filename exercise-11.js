@@ -14,3 +14,5 @@ function balikKata(kata) {
   console.log(balikKata('I am a bookworm')); // mrowkoob a ma I
   console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
   console.log(balikKata('Super')); // repuS
+
+  // kata.charAt(i) equals to kata[i]

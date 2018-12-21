@@ -46,7 +46,7 @@ console.log("------------------");
 //PERULANGAN COUNTER 2
 console.log("PERULANGAN COUNTER 2");
 for(i=1; i <= 100; i += 2) {
-  if (i % 3 == 0) {
+  if (i % 3 === 0) {
     console.log(i + " KELIPATAN 3");
   }
 }
@@ -55,7 +55,7 @@ console.log("------------------");
 //PERULANGAN COUNTER 5
 console.log("PERULANGAN COUNTER 5");
 for(i=1; i <= 100; i += 5) {
-  if (i % 6 == 0) {
+  if (i % 6 === 0) {
     console.log(i + " KELIPATAN 6");
   }
 }
@@ -64,7 +64,7 @@ console.log("------------------");
 //PERULANGAN COUNTER 9
 console.log("PERULANGAN COUNTER 9");
 for(i=1; i <= 100; i += 9) {
-  if (i % 10 == 0) {
+  if (i % 10 === 0) {
     console.log(i + " KELIPATAN 10");
   }
 }

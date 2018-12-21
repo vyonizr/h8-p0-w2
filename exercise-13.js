@@ -4,7 +4,7 @@ function xo(str) {
   var oCounter = 0;
   var i = str.length;
 
-  for (i; i >= 0; i--) { // checks letters from the end
+  for (i - 1; i >= 0; i--) { // checks letters from the end
     if (str.charAt(i) == "x") {
       xCounter +=1;
     }

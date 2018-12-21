@@ -30,11 +30,13 @@ console.log("-----------------------------------");
 console.log("3. Menyusun Barisan Tangga Bintang Dengan Nested Looping");
 var rows3 = 5 // input the number of rows
 var asterisksRowStartCount3 = 1;
-var asteriskContainer3 = "";
 
 // do loops to display asterisks in the console.
-while (asterisksRowStartCount3 <= rows3) {
-  asteriskContainer3 += "*";
-  console.log(asteriskContainer3);
-  asterisksRowStartCount3++;
+for (i = 1; i <= 1; i++) {
+  var asteriskContainer3 = "";
+
+  for (var j = 0; j <= rows3; j++) {
+    asteriskContainer3 += "*";
+    console.log(asteriskContainer3);
+  }
 }
