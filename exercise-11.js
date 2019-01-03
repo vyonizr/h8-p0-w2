@@ -1,8 +1,7 @@
 function balikKata(kata) {
   var terbalik = ""; // this is an empty STRING to be filled with reversed characters
-  var i = kata.length;
   
-  for (i; i >= 0; i--) { 
+  for (var i = kata.length - 1; i >= 0; i--) { 
     terbalik += kata.charAt(i); // adds the letter from the end of the string
   }
   return terbalik;
